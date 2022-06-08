@@ -32,10 +32,6 @@
               <span v-text="task.name"></span>
               <button class="clear" @click="deleteTask(index)"></button>
             </li>
-            <li class="task">
-              <span> Js Task </span>
-              <button class="clear" @click="deleteTask(index)"></button>
-            </li>
           </ul>
         </div>
       </div>
